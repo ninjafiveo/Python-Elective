@@ -10,10 +10,12 @@ my_answers= [
 "What would your mom say?",
 "Maybe you shouldn't do that.",
 "Dino Nuggies",
-"BBQ Ribs"
+"BBQ Ribs",
+"Take Mozzy for Walk",
+"Not True"
 ]
 while True:
-    my_number = random.randrange(0, 9)
+    my_number = random.randrange(0, 11)
     question = input("What would you like to ask the magic 8 ball? ")
     print(my_answers[my_number])
     ask_again = input("Would you like to ask another question?  ")
@@ -21,4 +23,4 @@ while True:
         print("Thank you for asking questions. Have a lovely day.")
         break
 
-# print(my_number)
+# Ninja Ninja
